@@ -39,7 +39,7 @@ The "Greeks" measure the sensitivity of the option price to changes in input par
 
 While Black-Scholes provides a pricing framework, it assumes constant volatility and log-normal returns. We enhance this by using Machine Learning to predict inputs and direction.
 
-### 2.1 Volatility Forecasting (`train.py`)
+### 2.1 Volatility Forecasting (`shortcall.py`)
 Instead of using a simple historical average for $\sigma$, we use ML models to predict future volatility.
 -   **Features**: Past realized volatility (1-day, 3-day, 7-day, 14-day).
 -   **Models**: Linear Regression, Random Forest.
