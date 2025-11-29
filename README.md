@@ -36,7 +36,7 @@ This project implements a comprehensive framework for analyzing and trading HDFC
 
 2.  **Run Scripts**:
     -   **Basic Pricing**: `python blackscholes.py`
-    -   **ML Volatility**: `python train.py`
+    -   **ML Volatility**: `python shortcall.py`
     -   **Direction Prediction**: `python direction.py`
     -   **Full Backtest**: `python multiyear.py`
 
